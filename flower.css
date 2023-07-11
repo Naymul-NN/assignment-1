@@ -1,0 +1,213 @@
+/* head section */
+
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.head-section{
+    display: flex;
+    padding: 0px 150px;
+    background-color: rgba(255, 192, 203, 0.317);
+    text-align: left;
+    gap:6em;
+    
+    
+}
+
+.text-section{
+    padding-top: 6em;
+
+}
+.text-h1{
+    font-size: 4em;
+}
+.text-para{
+    padding: 1.5em 0em;
+}
+.img-section{
+    padding-top: 2em ;
+    padding-left: 3em;
+}
+.btn-primary{
+    padding: 15px 25px;
+    background-color: tomato;
+    border-radius: 10%;
+    border: 0;
+    color: white;
+    font-weight: 700;
+}
+/* first section */
+.feature-div{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+     padding-top: 8em; 
+}
+.feature-para{
+    padding: 1.5em;
+
+}
+.flower-pic{
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    gap: 1em;
+    margin-bottom: 8em;
+}
+.first-pic > img{
+    padding-top: 6em;
+}
+ .first-pic > p{
+    
+    padding-top: 2em;
+    border-bottom: 1px solid black;
+    width: 115px;
+    margin: auto;
+    
+}
+.first-pic{
+    background-color: bisque;
+    height: 400px;
+    width: 450px;
+    border-radius:50% 50% 0% 0%;
+
+}
+.second-pic > img{
+    padding-top: 6em;
+}
+.second-pic > p{
+    padding-top: 2em;
+    border-bottom: 1px solid black;
+    width: 110px;
+    margin: auto;
+}
+.second-pic{
+    background-color: rgba(127, 255, 212, 0.638);
+    height: 400px;
+    width: 450px;
+    border-radius:50% 50% 0% 0%;
+}
+.last-pic > img{
+   padding-top: 6em;
+}
+.last-pic > p{
+    padding-top: 2em;
+    border-bottom: 1px solid black;
+    width: 130px;
+    margin: auto;
+}
+.last-pic{
+    background-color: rgba(128, 128, 128, 0.737);
+    height: 400px;
+    width: 450px;
+    border-radius:50% 50% 0% 0%;
+}
+.second-section{
+    display: flex;
+    text-align: center;
+    background-color: rgba(255, 228, 196, 0.568);
+    justify-content: space-evenly;
+}
+.offer-div{
+    padding: 6em 6em 6em 0em;
+}
+.offer-img > img{
+    padding-top: 3em;
+}
+.offer-div > p{
+    padding: 1.5em;
+}
+/* insgram-div */
+.instagram-div{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 4em;
+}
+
+/* third-section */
+
+.third-section{
+    display: flex;
+    gap: 1em;
+    width: 80%;
+    margin: auto;
+}
+
+/* fourth-section */
+
+.fourth-section{
+    margin-bottom: 100px;
+}
+
+.trend{
+    margin-top: 20px;
+    text-align: center;
+    padding:3em;
+    background-image: radial-gradient(pink , white);
+}
+
+.order-btn{
+    display: block;
+    margin-left: 6em;
+    margin-top: 2em;
+    padding: 1em 1.5em;
+    border: 0;
+    background-color: burlywood;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+.order-btn:hover{
+    background-color:tomato;
+    color: wheat;
+}
+.order-div{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    padding:2em;
+}
+
+/* last-section */
+.last-section{
+    text-align: center;
+    margin-top: ;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    background-image: url(image/Rectangle\ 9.png);
+    background-size: cover;
+    background-position: center;
+}
+.last-div{
+    padding-top: 100px;
+    font-weight: 700;
+}
+.last-div > p{
+    padding: 1.5em;
+}
+.last-div > input{
+    padding: 0.8em;
+    width: 600px;
+}
+/* footer */
+
+.span-1{
+    color: tomato;
+}
+footer{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    margin-top: 100px;
+    padding:50px ;
+}
+footer>h1{
+    padding: 1em;
+}
